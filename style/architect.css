@@ -29,6 +29,22 @@
     background-color: #FFF4E7;
 }
 
+.btn-primary{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+    border: 1px solid #FF900E;
+    color: #FF900E;
+}
+
 
 /* header styles */
 
@@ -61,4 +77,23 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* hero section styles */
+.hero-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.hero-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.hero-desc{
+    margin: 32px 0;
+}
+
+.hero-image{
+    margin-bottom: 50px;
 }
