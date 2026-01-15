@@ -60,13 +60,13 @@
     margin: 30px 0;
 }
 .nav-links{
-    gap: 60px;
+    /* gap: 60px; */
 }
 
 .nav-item{
     list-style: none;
     font-size: 18px;
-    /* margin-right: 30px; */
+    margin-right: 30px;
 }
 
 .nav-link{
@@ -96,4 +96,21 @@
 
 .hero-image{
     margin-bottom: 50px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
 }
